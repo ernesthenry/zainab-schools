@@ -1,6 +1,78 @@
-body{
-    font-size: 20px !important;
+@import url('https://fonts.googleapis.com/css?family=Lato|Josefin Sans|Montserrat|Pacifico|Righteous|Poppins|Roboto|Roboto+Condensed|Ubuntu');
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Lato";
+    margin-top: 70px;
 }
+
+.nav-link {
+    font-size: 16px;
+    margin: 15px;
+    color: white !important;
+    font-family: "Ubuntu";
+}
+
+.nav-link:hover {
+    color: #00e8e8 !important;
+}
+
+.active .nav-link {
+    color: #00e8e8 !important;
+}
+
+
+.section-pastor {
+    max-width: 100%;
+    transition: transform .5s ease;
+    overflow: hidden;
+}
+.section-pastor{
+    margin-top: 0;
+}
+
+.section-pastor .para-1 {
+    font-family: Roboto Condensed;
+    color: white;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.showcase-right img:hover {
+    transform: scale(1.1);
+    cursor: zoom-in;
+}
+
+.showcase-right img {
+    overflow: hidden;
+    transition: transform .5s ease;
+    height: 30%;
+}
+
+.showcase-btn {
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+}
+
+/*---------------testimonials section---------------*/
+#testimonials{
+    margin: 50px 0;
+}
+.testimonials{
+    border-left: 4px solid #0A81D1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
 .content-1{
     padding: 20px;
 }
@@ -31,11 +103,59 @@ body{
 }
 
 
-.footer{
-    background-color: black;
+/*-----------Footer section------------*/
+
+#footer
+{
+    background: rgb(85, 70, 70);
+    color: #fff;
 }
 
-,footer{
-    margin-top: 50px;
-    padding: 200px;
+.footer-box
+{
+    padding: 20px;
+}
+
+.footer-box .fa
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right,  #0A81D1,rgb(5, 68, 110));
+}
+.footer-box .form-control
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right,#0A81D1,rgb(5, 68, 110));
+}
+
+hr
+{
+    background-color: black;
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+.copyright a{
+    color: #ffed00;
 }
